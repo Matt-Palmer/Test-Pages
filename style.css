@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+	background-color: black;
+}
+
+nav{
+	height: 95%;
+}
+
+.row{
+	width: 95%;
+	height: 50%;
+	margin: 30px auto 0;
+}
+
+.margin-top-zero{
+	margin-top: 0;
+}
+
+.nav-link-upper, 
+.nav-link-lower{
+	display: block;
+	float: left;
+	width: 33%;
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background-color: lightgreen;
+	opacity: 0.5;
+	transition: opacity 2s;
+}
+
+.nav-link-upper:nth-child(odd){
+	background-color: white;
+}
+
+.nav-link-lower:nth-child(even){
+	background-color: white;
+}
+
+.nav-link-upper:hover,
+.nav-link-lower:hover{
+	opacity: 0.8;
+}
